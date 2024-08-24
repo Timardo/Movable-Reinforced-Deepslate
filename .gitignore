@@ -1,0 +1,9 @@
+run/
+build/
+.gradle/
+bin/
+*.launch
+.classpath
+.project
+icon.png
+.settings/

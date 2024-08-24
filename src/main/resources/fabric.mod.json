@@ -1,0 +1,27 @@
+{
+    "schemaVersion": 1,
+    "id": "movablereinforceddeepslate",
+    "version": "${version}",
+    "name": "Movable Reinforced Deepslate",
+    "description": "Makes reinforced deepslate movable by pistons. Just like in the old snapshots.",
+    "authors": [
+        "Timardo"
+    ],
+    "license": "CC0-1.0",
+    "environment": "*",
+    "icon": "icon.jpg",
+    "entrypoints": {
+        "main": [
+            "net.timardo.movablereinforceddeepslate.MovableReinforcedDeepslate"
+        ]
+    },
+    "mixins": [
+        "movablereinforceddeepslate.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.15.0"
+    },
+    "suggests": {
+        "another-mod": "*"
+    }
+}

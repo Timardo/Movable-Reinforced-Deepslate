@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "net.timardo.movablereinforceddeepslate.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+        "MovableReinforcedDeepslateMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
