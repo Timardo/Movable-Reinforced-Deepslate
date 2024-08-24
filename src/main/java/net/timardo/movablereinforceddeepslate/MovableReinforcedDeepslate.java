@@ -6,7 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class MovableReinforcedDeepslate implements ModInitializer {
-    public static final Logger LOGGER = LoggerFactory.getLogger("miningcooldownfix");
+    public static final Logger LOGGER = LoggerFactory.getLogger("movablereinforceddeepslate");
 
     @Override
     public void onInitialize() {
